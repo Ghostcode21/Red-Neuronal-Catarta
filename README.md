@@ -129,7 +129,7 @@ Se utiliza un subconjunto del dataset público de Bitto (2024), *"Image Dataset 
 
 Cada imagen pasa por un pipeline de preprocesamiento: conversión a escala de grises → redimensionado a 20×20 px (conservando proporción, relleno gris) → aplanado a vector de 400 valores → normalización a [0, 1].
 
-## 📈 Resultados
+## Resultados
 
 Evaluado sobre 239 imágenes de prueba (20 % del total, nunca vistas en entrenamiento):
 
